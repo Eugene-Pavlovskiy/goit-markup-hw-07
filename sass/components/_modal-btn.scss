@@ -1,6 +1,6 @@
 /* --- Modal BTN --- */
 .modal-btn {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -18,7 +18,7 @@
 }
 
 .modal-btn {
-  background: var(--accent-color);
+  background: $accent-color;
 }
 
 .modal-btn:hover,

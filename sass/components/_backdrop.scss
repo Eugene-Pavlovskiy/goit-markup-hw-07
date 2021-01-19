@@ -68,7 +68,7 @@
 
 .close-btn:focus .close-btn__icon,
 .close-btn:hover .close-btn__icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 
   transition: border-color 250ms linear;
 }
@@ -127,7 +127,7 @@
 
   &:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 
     transition: border-color 250ms linear;
   }
@@ -135,7 +135,7 @@
 
 .modal__form-field:focus .modal__form-icon,
 .modal__form-field:focus .modal__form-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal__form-wraper {
@@ -180,7 +180,7 @@
 .comment:focus,
 .comment:hover {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
   transition: border-color 250ms linear;
 }
 
@@ -217,8 +217,8 @@
 
 .modal__form-policy:checked + .modal__form-policy-text::before {
   background-image: url('../img/icon-check.svg');
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
+  border-color: $accent-color;
+  background-color: $accent-color;
   background-size: contain;
   background-origin: content-box;
 }
@@ -226,14 +226,12 @@
 .agreement__link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .modal__form-btn {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
+  font-family: $main-font;
+  @include font(16px, 700, 30px);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -248,7 +246,7 @@
   padding-right: 55px;
   padding-left: 55px;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border: 1px solid transparent;
   cursor: pointer;
 

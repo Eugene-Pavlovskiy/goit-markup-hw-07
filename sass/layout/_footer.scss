@@ -30,7 +30,7 @@
 .contact-list__link,
 .footer-mail__link,
 .footer-tel__link {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -89,7 +89,7 @@
 
 .social-list__link:hover,
 .social-list__link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 /* --- Footer Subscribe --- */
@@ -101,7 +101,7 @@
 }
 
 .footer-form {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.25;
@@ -111,7 +111,7 @@
 }
 
 .footer-subscribe-title {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -129,7 +129,7 @@
 }
 
 .footer-subscribe-input {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -145,7 +145,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-email-btn {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700px;
   font-size: 16px;
   line-height: 1.875;
