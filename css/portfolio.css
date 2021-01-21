@@ -320,8 +320,13 @@ header {
   cursor: pointer;
 }
 
-.projects__item-list:nth-child(3n) {
-  margin-right: 0;
+.projects__item-list__link:hover, .projects__item-list__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects__item-list__link:focus .overlay,
+.projects__item-list__link:hover .overlay {
+  transform: translateY(0);
 }
 
 .projects__item-list {
@@ -331,8 +336,8 @@ header {
   border: 1px solid #eeeeee;
 }
 
-.projects__item-list:hover .overlay {
-  transform: translateY(0);
+.projects__item-list:nth-child(3n) {
+  margin-right: 0;
 }
 
 .projects__item-overlay {
@@ -356,12 +361,6 @@ header {
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
   color: #ffffff;
-}
-
-.projects__item-list__link:hover,
-.projects__item-list__link:focus,
-.projects__item-list:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects__item-content-wrapper {
