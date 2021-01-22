@@ -20,10 +20,10 @@
   border-radius: 4px;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients__item-link {
@@ -37,11 +37,11 @@
   border-radius: 4px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
 
-.clients__item-link:hover,
-.clients__item-link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .clients__icon-1 {

@@ -13,6 +13,10 @@
   justify-content: center;
   max-width: 270px;
   min-height: 251px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .feature__icon-box {
@@ -30,10 +34,6 @@
   width: 70px;
   height: 70px;
   margin: 25px 100px;
-}
-
-.feature__item-list:not(:last-child) {
-  margin-right: 30px;
 }
 
 .feature__item-title {

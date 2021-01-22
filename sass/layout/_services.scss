@@ -6,10 +6,10 @@
 .services__item {
   display: flex;
   align-items: center;
-}
 
-.services__item .services__item-list {
-  position: relative;
+  & .services__item-list {
+    position: relative;
+  }
 }
 
 .services__item-list-cover {
