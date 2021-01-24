@@ -151,6 +151,10 @@ header {
   margin: 24px 93px 26px 0;
 }
 
+.brand__logo:focus {
+  outline: 1px solid #000000;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -175,6 +179,12 @@ header {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+}
+
+.navigation__list-link:focus,
+.header__mail:focus,
+.header__tel:focus {
+  outline: 1px solid #000000;
 }
 
 .navigation__list-link {
@@ -300,6 +310,10 @@ header {
 }
 
 /* --- Projects --- */
+.portfolio {
+  margin-bottom: 64px;
+}
+
 .projects__item {
   display: flex;
   flex-wrap: wrap;
@@ -417,6 +431,12 @@ header {
   margin-right: 0px;
 }
 
+.contact-list__link:focus,
+.footer-mail__link:focus,
+.footer-tel__link:focus {
+  outline: 1px solid #000000;
+}
+
 .footer-mail__link,
 .footer-tel__link {
   color: rgba(255, 255, 255, 0.6);
@@ -444,7 +464,7 @@ header {
   height: 44px;
   border-radius: 50%;
   margin: 0 auto 0 auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-list__item {
@@ -454,6 +474,7 @@ header {
   width: 44px;
   height: 44px;
   margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-list__link {
